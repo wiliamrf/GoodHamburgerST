@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodHamburger.API", "src\GoodHamburger.API\GoodHamburger.API.csproj", "{35184952-30AD-445E-9844-84097C6E2DB5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C25AAA6-B301-4FEA-9933-033E54E944E9} = {4C25AAA6-B301-4FEA-9933-033E54E944E9}
+		{DA265C3C-1F5C-47BF-82AF-7D10FCFE9922} = {DA265C3C-1F5C-47BF-82AF-7D10FCFE9922}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodHamburger.Business", "src\GoodHamburger.Business\GoodHamburger.Business.csproj", "{4C25AAA6-B301-4FEA-9933-033E54E944E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodHamburger.Data", "src\GoodHamburger.Data\GoodHamburger.Data.csproj", "{DA265C3C-1F5C-47BF-82AF-7D10FCFE9922}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{23979FD8-43EB-4D0B-9430-B4742BA88CEB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35184952-30AD-445E-9844-84097C6E2DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35184952-30AD-445E-9844-84097C6E2DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35184952-30AD-445E-9844-84097C6E2DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35184952-30AD-445E-9844-84097C6E2DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C25AAA6-B301-4FEA-9933-033E54E944E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C25AAA6-B301-4FEA-9933-033E54E944E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C25AAA6-B301-4FEA-9933-033E54E944E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C25AAA6-B301-4FEA-9933-033E54E944E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA265C3C-1F5C-47BF-82AF-7D10FCFE9922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA265C3C-1F5C-47BF-82AF-7D10FCFE9922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA265C3C-1F5C-47BF-82AF-7D10FCFE9922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA265C3C-1F5C-47BF-82AF-7D10FCFE9922}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55E816F0-C4E0-41B3-AF72-FE67FAFB860B}
+	EndGlobalSection
+EndGlobal
